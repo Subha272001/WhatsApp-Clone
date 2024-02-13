@@ -1,0 +1,28 @@
+font-end :- React and Material-UI(react framework - component library)
+Backend :- Express, Node
+Database :- MongoDB
+Real time chatting:- Socket.io
+
+create components = 
+  1.Messanger
+  2.account =>LoginDialog
+
+
+  material UI- box - div
+               typography - span
+
+
+cors - cross origin resource sharing
+       browser specific error
+       if we are trying to share data on two different server or ports then browser won't allow it.
+
+       like if frontend is running on port 3000 and backend on 8000 now if we try to send data then it will not allow
+       to handle it - npm i cors
+
+model - require to verify whatever is coming in body of request is correct as per the need for that we define models. 
+
+useEffect = whenever any compnent mounts it calls the api itself;
+
+takes two arguments ( callback function{what you want to do }, dependency array(when to call)|)
+                                                                                             |>>>{[]-whenever component mounts}
+      
